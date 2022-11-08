@@ -1,8 +1,10 @@
 # Whatsapp-Message-Sender
-a website which can be used to schedule whatsapp messages. more features coming soon!!
+A website which can be used to schedule whatsapp messages. More features coming soon!!
 Requirements:-
-Install the following python modules:-
+Softwares:-
+MongoDB, Python3
+In Python3 install the following python modules:-
 1.) flask 
 2.) pymongo 
 3.) pwhatkit
-use the command "pip install (module)
+Use the command "pip install (module name)".
