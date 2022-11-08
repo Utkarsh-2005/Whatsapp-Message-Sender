@@ -1,0 +1,25 @@
+h1 {
+    color:darkcyan;
+    font-family:'Gill Sans';
+    text-align: center;
+    }
+#card {
+    background-color: rgb(221, 248, 225);
+    padding: 8px;
+      
+    border-radius: 24px;
+      }
+#timer {
+    color:darksalmon;
+    font-family:'Lucida Grande';
+    display: block;
+    font-size: 8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+      }
+body {
+    background-color:antiquewhite;
+}

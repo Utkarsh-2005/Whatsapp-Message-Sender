@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <link rel="stylesheet" href="static\css\style.css">
+    <div id="card"><h1>Whatsapp Message Sender</h1></div>
+    <img src="static\whatsapp-logo-png-hd-2.png" height="100"><hr><br>
+    <form id="send" method="POST" action="/data">
+        <div id="write"><label for="message">Write message:</label></div><br>
+        <textarea name="message" id="message" cols="100" rows="5", placeholder="Write your message here..." required></textarea><br>
+        <label for="phone">Phone No.:</No></label><br>
+        <span>+91</span> <input type="text" id="phone" name="phone" placeholder="XXXXXXXXXX" required><br>
+        <label for="time">Send After:</label><br>
+        <select name="time" id="time" required>
+        <option value="1">1 min</option>
+        <option value="2">2 mins</option>
+        <option value="3">3 mins</option>
+        <option value="5">5 mins</option>
+        <option value="10">10 mins</option>
+        </select><br><br>
+        <button type="submit" id="submit" onclick="window.location.href = 'templates/next_page.html'">Send Message</button>
+
+    </form>
+    <script>
+        let btn = document.getElementById('submit');
+        btn.addEventListener('click', function(){
+            window.location ='templates/next_page.html'
+        })
+    </script>
+
+</body>
